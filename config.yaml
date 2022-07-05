@@ -1,0 +1,22 @@
+baseurl: "https://www.example.org/"
+languageCode: "es"
+title:  ' '
+theme: "PaperMod"
+menu:
+
+  main:
+
+    - identifier: Inicio
+      name: Inicio
+      url: /inicio/
+      weight: 10
+
+    - identifier: Contact us
+      name: Contacténos
+      url: /contacto/
+      weight: 30
+
+    - identifier: Catalogo
+      name: Catalogo
+      url: /catalogo/
+      weight: 20
