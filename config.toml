@@ -1,0 +1,61 @@
+baseurl = "" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+title = "Tienda Tecnica"
+theme = "hugo-universal-theme-master"
+
+[menu]
+
+[[menu.main]]
+    name       = "Dispositivos electronicos"
+    identifier = "menu.electronicos"
+    url        = "/categoria2.png"
+    weight     = 2
+
+[[menu.main]]
+    name       = ""
+    identifier = "section.electronicos"
+    url        = ""
+    weight     = 1
+    parent     = "menu.electronicos"
+    post       = 1
+
+[[menu.main]]
+    name       = "MÓDULO BLUETOOTH HC-06"
+    url        = "http://localhost:1313/producto3/"
+    weight     = 1
+    parent     = "section.electronicos"
+
+[[menu.main]]
+    name       = "PROTOBOARD MB-102"
+    url        = "http://localhost:1313/producto4/"
+    weight     = 2
+    parent     = "section.electronicos"
+
+[[menu.main]]
+    name       = "Instrumentos de medición"
+    identifier = "menu.medición"
+    url        = "/facebook.png"
+    weight     = 4
+
+[[menu.main]]
+    name       = ""
+    identifier = "section.medición"
+    url        = ""
+    weight     = 1
+    parent     = "menu.medición"
+    post       = 1
+
+[[menu.main]]
+name       = "Termohigrometro HTC-1"
+url        = "http://localhost:1313/producto2/"
+weight     = 1
+parent     = "section.medición"
+
+[[menu.main]]
+name       = "Termohigrometro HTC-2"
+url        = "http://localhost:1313/producto1/"
+weight     = 2
+parent     = "section.medición"
+
+
+
+
