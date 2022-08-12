@@ -56,6 +56,12 @@ url        = "http://localhost:1313/producto1/"
 weight     = 2
 parent     = "section.medición"
 
+[[menu.main]]
+identifier= "Catalogo"
+name= "Catalogo"
+url= "/catalogo/"
+weight= 20
+
 
 
 
