@@ -20,13 +20,13 @@ theme = "hugo-universal-theme-master"
 
 [[menu.main]]
     name       = "MÓDULO BLUETOOTH HC-06"
-    url        = "http://localhost:1313/producto3/"
+    url        = "https://www.tiendatecnica.com.co/producto3/"
     weight     = 1
     parent     = "section.electronicos"
 
 [[menu.main]]
     name       = "PROTOBOARD MB-102"
-    url        = "http://localhost:1313/producto4/"
+    url        = "https://www.tiendatecnica.com.co/producto4/"
     weight     = 2
     parent     = "section.electronicos"
 
@@ -46,21 +46,16 @@ theme = "hugo-universal-theme-master"
 
 [[menu.main]]
 name       = "Termohigrometro HTC-1"
-url        = "http://localhost:1313/producto2/"
+url        = "https://www.tiendatecnica.com.co/producto2/"
 weight     = 1
 parent     = "section.medición"
 
 [[menu.main]]
 name       = "Termohigrometro HTC-2"
-url        = "http://localhost:1313/producto1/"
+url        = "https://www.tiendatecnica.com.co/producto1/"
 weight     = 2
 parent     = "section.medición"
 
-[[menu.main]]
-identifier= "Catalogo"
-name= "Catalogo"
-url= "/catalogo/"
-weight= 20
 
 
 
