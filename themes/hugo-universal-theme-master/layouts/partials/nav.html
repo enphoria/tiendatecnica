@@ -2,11 +2,11 @@
     <div class="navbar navbar-default yamm {{ if .Site.Params.dropdown_mouse_over }}mouseover{{ end }}" role="navigation" id="navbar">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ "/" | relLangURL }}">
+                <div class="logo">
+                    <a href="{{ "" | absLangURL }}" accesskey="h">
                     <img src="{{ .Site.BaseURL }}images/logotiendatecnica.jpg">
-                <h4>{{ .Site.Params.logo_text }}</h4>
-                <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
-                </a>
+                    </a>
+                </div>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
                       <span class="sr-only">{{ i18n "navToggle" }}</span>
