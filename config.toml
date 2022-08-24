@@ -6,7 +6,7 @@ theme = "hugo-universal-theme-master"
 disabled_logo = false
 logo_text = "Tienda Tecnica"
 
-logo = "img/logotiendatecnica.png"
+logo = "static/images/logotiendatecnica.png"
 logo_small = "img/logotiendatecnica.png"
 
 [menu]
