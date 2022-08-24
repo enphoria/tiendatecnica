@@ -2,6 +2,13 @@ baseurl = "" # Configure URL. if using gh-pages https://github.com/<username>/hu
 title = "Tienda Tecnica"
 theme = "hugo-universal-theme-master"
 
+[params]
+disabled_logo = false
+logo_text = "Tienda Tecnica"
+
+logo = "static/images/logotiendatecnica.png"
+logo_small = "img/logotiendatecnica.png"
+
 [menu]
 
 [[menu.main]]
